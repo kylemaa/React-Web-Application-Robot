@@ -18,13 +18,17 @@ class FormContainer extends Component {
     e.preventDefault();
     const { rows, columns, clickedButtons } = this.state;
 
-    fetch("https://7afafg99v6.execute-api.us-west-2.amazonaws.com/api/tasks", {
+    fetch("https://dwis18cw76.execute-api.us-west-2.amazonaws.com/prod/api", {
       method: "POST",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({ rows, columns, clickedButtons })
+      body: JSON.stringify({
+        Row: rows,
+        Column: columns,
+        clickedButtons: clickedButtons
+      })
     });
     this.setState({
       rows: rows,
