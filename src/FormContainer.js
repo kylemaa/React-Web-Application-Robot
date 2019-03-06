@@ -29,7 +29,7 @@ class FormContainer extends Component {
     this.setState({
       rows: rows,
       columns: columns,
-      clickedButtons: ["", ""]
+      clickedButtons: clickedButtons
     });
     e.target.reset();
   }
