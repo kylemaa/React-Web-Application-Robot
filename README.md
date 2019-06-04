@@ -1,5 +1,6 @@
 # React-195
 This is a serverless website application that is developed to simulate our Real-Time Smart Factory floor.
+
 http://rt-smart-factory.s3-website-us-west-1.amazonaws.com/ 
 
 First, navigate to the given URL to be taken to the web applications home page. 
