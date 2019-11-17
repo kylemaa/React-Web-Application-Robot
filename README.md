@@ -3,14 +3,10 @@ This is a serverless website application that is developed to simulate our Real-
 URL: http://rt-smart-factory.s3-website-us-west-1.amazonaws.com/ 
 
 ## Instruction
-First, navigate to the given URL to be taken to the web applications home page. 
-
-Second, click the "Signup" button on the top right of the home page and create an account. Navigate to the email you signed up with to get your verification code. Third, start creating a grid by clicking the "+ Create a new grid" button on the home page. 
-
-Fill in "Grid Title", "Rows", and "Columns" with the name and dimensions of your factory floor. 
-To create walls or obstacles that reflect the same obstacles or hallways on your factory floor, please click the coordinate corresponding to these. 
-
-When you are finished, press "Create". This sends the data of your grid to a database hosted on the AWS servers. If you want to create multiple grids, follow the same process. All of your grids should be listed on the home page as soon as you sign in.
+1. Navigate to the given URL to be taken to the web applications home page. 
+2. Click the "Signup" button on the top right of the home page and create an account. Navigate to the email you signed up with to get your verification code. Third, start creating a grid by clicking the "+ Create a new grid" button on the home page. 
+3. Fill in "Grid Title", "Rows", and "Columns" with the name and dimensions of your factory floor. 
+4. reate walls or obstacles that reflect the same obstacles or hallways on your factory floor, please click the coordinate corresponding to these. "Create" sends the data of your grid to a database hosted on the AWS servers. If you want to create multiple grids, follow the same process. All of your grids should be listed on the home page as soon as you sign in.
 
 ## MQTT Instruction
 https://university.ti.com/en/faculty/ti-robotics-system-learning-kit/ti-robotics-system-learning-kit
