@@ -9,8 +9,9 @@ URL: http://rt-smart-factory.s3-website-us-west-1.amazonaws.com/
 4. reate walls or obstacles that reflect the same obstacles or hallways on your factory floor, please click the coordinate corresponding to these. "Create" sends the data of your grid to a database hosted on the AWS servers. If you want to create multiple grids, follow the same process. All of your grids should be listed on the home page as soon as you sign in.
 
 ## MQTT Instruction
-https://university.ti.com/en/faculty/ti-robotics-system-learning-kit/ti-robotics-system-learning-kit
-![RSLK](https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/rslk-1-1_orig.jpg)
+Get RSLK: https://university.ti.com/en/faculty/ti-robotics-system-learning-kit/ti-robotics-system-learning-kit
+
+<img src="https://embeddedcomputing.weebly.com/uploads/1/1/6/2/11624344/rslk-1-1_orig.jpg" width="480">
 
 To send a path to your RSLK robot for it to follow, click a grid you have already created. 
 When your grid has loaded, click the coordinate square that corresponds to the location your robot is started at, as well as the coordinate square that corresponds to your robot's destination. Afterwards, check the radio button that corresponds to the robot you want to send the path to.
